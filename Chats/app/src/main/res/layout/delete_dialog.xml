@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/corner_shep"
+    android:orientation="vertical">
+
+<TextView
+    android:id="@+id/dialogTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:gravity="left"
+    android:background="@drawable/corner_shep"
+    android:text="Delete Message?"
+    android:textColor="#A39A9A"
+    android:textSize="18sp" />
+    <TextView
+        android:id="@+id/everyone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:padding="10dp"
+        android:text="Delete for Everyone"
+        android:textColor="@color/greenDark"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:gravity="right"
+        android:padding="10dp"
+        android:paddingRight="20dp"
+        android:text="Delete for Me"
+        android:textColor="@color/greenDark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:gravity="right"
+        android:padding="10dp"
+        android:paddingRight="20dp"
+        android:text="Cancel"
+        android:textColor="@color/greenDark"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
