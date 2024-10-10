@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title=""/>
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/edit2"
+        android:title="Edit"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/share"
+        android:iconTint="@color/white"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+</menu>

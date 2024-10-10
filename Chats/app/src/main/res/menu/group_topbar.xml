@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/editGroupName"
+        android:title="Edit Group Name" />
+    <item
+        android:id="@+id/groupInfo"
+        android:title="Group info" />
+    <item
+        android:id="@+id/groupMedia"
+        android:title="Group media" />
+    <item
+        android:id="@+id/wallpaper"
+        android:title="Wallpaper" />
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/report"
+                android:title="Report"/>
+            <item
+                android:id="@+id/exitGroup"
+                android:title="Exit group"/>
+        </menu>
+    </item>
+</menu>

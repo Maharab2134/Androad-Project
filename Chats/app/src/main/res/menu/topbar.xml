@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu     xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:title=""
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        app:showAsAction="always"
+        android:title=""
+        android:icon="@drawable/dote"
+        android:iconTint="#242020">
+        <menu>
+            <item
+                android:id="@+id/groups"
+                android:title="New group"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/invite"
+                android:title="Invite"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
